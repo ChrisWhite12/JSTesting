@@ -1,0 +1,27 @@
+{
+  "name": "jstesting",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server/index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChrisWhite12/JSTesting.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChrisWhite12/JSTesting/issues"
+  },
+  "homepage": "https://github.com/ChrisWhite12/JSTesting#readme",
+  "devDependencies": {
+    "jest": "^26.4.2",
+    "supertest": "^5.0.0"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
